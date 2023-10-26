@@ -1,5 +1,5 @@
 /* shared common styles */
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -15,13 +15,14 @@
 }
 
 /* banner related styles */
-.banner{
+.banner-container {
     display: flex;
     gap: 97px;
     align-items: center;
     justify-content: space-around;
     background: rgba(229, 84, 115, 0.10);
 }
+
 .banner-title {
     color: #272727;
     font-family: Lato;
@@ -30,10 +31,80 @@
     margin-bottom: 30px;
     width: 708px;
 }
+
 .banner-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
     width: 634px;
+}
+
+/* featured flower related styles */
+.featured-flowers-container {
+    margin-top: 170px;
+    text-align: center;
+}
+
+.featured-flowers-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.featured-flowers-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 594px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.featured-flowers-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.feature-img1 {
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 75px 0px 75px;
+}
+.feature-img1 h4{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+
+.feature-img2 {
+    width: 370px;
+    height: 370px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 50px 50px 50px;
+}
+.feature-img2 h4{
+    text-align: center;
+    /* margin-top: 60px; */
+    text-decoration: underline;
+}
+
+.feature-img3 {
+    width: 314px;
+    height: 471px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0px 75px;
+}
+.feature-img3 h4{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
 }
