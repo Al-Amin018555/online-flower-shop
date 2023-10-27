@@ -207,10 +207,20 @@
 .latest-deal-container {
     display: flex;
     height: 449px;
+    margin: 120px 240px;
     background-image: url('../images/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    justify-content: center; 
-    /* text-align: center;    */
+    justify-content: center;
+    text-align: center;
     align-items: center;
 
+}
+
+.latest-deal-container input[type="text"] {
+    width: 700px;
+    padding: 25px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 15px;
 }
