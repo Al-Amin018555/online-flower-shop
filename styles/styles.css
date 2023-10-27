@@ -181,9 +181,36 @@
     width: 594px;
     margin: auto;
 }
-.insta-images-container{
+
+.insta-images-container {
     display: flex;
     gap: 20px;
     justify-content: center;
     margin-top: 50px;
+}
+
+/* latest deal related styles */
+.latest-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.latest-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.latest-deal-container {
+    display: flex;
+    height: 449px;
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    justify-content: center; 
+    /* text-align: center;    */
+    align-items: center;
+
 }
