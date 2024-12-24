@@ -5,6 +5,12 @@
     font-family: "Lato", serif;
 }
 
+.section-title{
+    color: #272727;
+    font-weight: 900;
+    font-size: 40px;
+}
+
 p {
     color: rgba(39, 39, 39, 0.6);
     font-weight: 400;
@@ -28,6 +34,7 @@ button {
 button:hover {
     background: rgba(34, 224, 17, 0.555);
 }
+
 
 /* header related styles */
 header {
@@ -63,4 +70,67 @@ header {
 
 .banner-img img {
     vertical-align: middle;
+}
+/* main related styles */
+section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* feature related styles */
+.feature{
+    margin-top: 120px;
+}
+.feature-text .feature-text-contents *,
+.feature-content {
+    margin-bottom: 25px;
+}
+
+.feature-text-contents{
+    max-width: 580px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.feature-content {
+    display: flex;
+    gap: 20px;
+    align-items: end;
+    justify-content: space-between;
+
+}
+
+
+.flower .flower-img {
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    /* border: 1px solid red; */
+    padding: 30px 25px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.flower .pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower .blue {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower .green {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-img img {
+    width: 100%;
+}
+.flower p{
+    color: #272727;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 16px;
 }
