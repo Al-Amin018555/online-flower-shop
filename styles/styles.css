@@ -134,3 +134,24 @@ section {
     text-decoration: underline;
     margin-top: 16px;
 }
+
+/* services related styles */
+.services{
+    margin-top: 120px;
+    /* border: 1px solid red; */
+}
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 120px 150px;
+}
+.service-item{
+    text-align: center;
+}
+.service-item p{
+    color: rgba(39, 39, 39, 0.8);
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 15px;
+}
