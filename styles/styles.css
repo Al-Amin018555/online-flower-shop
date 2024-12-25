@@ -5,7 +5,7 @@
     font-family: "Lato", serif;
 }
 
-.section-title{
+.section-title {
     color: #272727;
     font-weight: 900;
     font-size: 40px;
@@ -37,7 +37,8 @@ button:hover {
 
 
 /* header related styles */
-header {
+header,
+.hot-deal {
     background: rgba(229, 84, 115, 0.1);
 }
 
@@ -71,22 +72,18 @@ header {
 .banner-img img {
     vertical-align: middle;
 }
-/* main related styles */
-section {
-    max-width: 1440px;
-    margin: 0 auto;
-}
 
 /* feature related styles */
-.feature{
+.feature {
     margin-top: 120px;
 }
+
 .feature-text .feature-text-contents *,
 .feature-content {
     margin-bottom: 25px;
 }
 
-.feature-text-contents{
+.feature-text-contents {
     max-width: 580px;
     text-align: center;
     margin: 0 auto;
@@ -126,7 +123,8 @@ section {
 .flower-img img {
     width: 100%;
 }
-.flower p{
+
+.flower p {
     color: #272727;
     font-weight: 700;
     font-size: 24px;
@@ -136,22 +134,59 @@ section {
 }
 
 /* services related styles */
-.services{
+.services {
     margin-top: 120px;
     /* border: 1px solid red; */
 }
-.services-container{
+
+.services-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background: rgba(39, 39, 39, 0.05);
     padding: 120px 150px;
 }
-.service-item{
+
+.service-item {
     text-align: center;
 }
-.service-item p{
+
+.service-item p {
     color: rgba(39, 39, 39, 0.8);
     font-weight: 600;
     font-size: 24px;
     margin-top: 15px;
+}
+
+/* hot deal related styles */
+.hot-deal{
+    margin-top: 120px;
+}
+.hot-deal-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+.hot-deal-main .container-text{
+    width: 75%;
+    max-width: 590px;
+    text-align: center;
+}
+.hot-deal-main .container-text *{
+    /* max-width: 590px; */
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+.hot-deal .container-img{
+    /* border: 1px solid red; */
+    width: 318px;
+} 
+.hot-deal .container-img img{
+    width: 100%;
+}
+
+.hot-deal-main .container-text h2{
+    color: #272727;
+    font-weight: 900;
+    font-size: 40px;
 }
