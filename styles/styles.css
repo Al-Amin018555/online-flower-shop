@@ -98,7 +98,7 @@ header,
     border: 1px solid red;
 } */
 .container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 /* .flower{
     border: 1px solid red;
@@ -210,6 +210,7 @@ header,
 }
 
 /* instagram related styles */
+
 /* .container{
     border: 1px solid red;
 }
@@ -234,3 +235,25 @@ header,
 }
 
 /* latest deal related styles */
+#newsletter{
+    /* border: 1px solid red; */
+    margin-top: 130px;
+}
+.newsletter-main{
+    background-image: url('../images/Rectangle\ 9.png');
+    padding: 120px 0px;
+}
+#newsletter form{
+    max-width: 800px;
+    margin: 30px auto;
+    display: flex;
+    gap: 10px;
+}
+.newsletter-main form input{
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    /* outline: 1px solid green; */
+    outline: none;
+}
