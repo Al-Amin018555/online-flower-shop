@@ -5,7 +5,14 @@
     font-family: "Lato", serif;
 }
 
-.section-title {
+.section-heading {
+    max-width: 590px;
+    text-align: center;
+    margin: 20px auto;
+    /* border: 1px solid red; */
+}
+
+.section-heading h2 {
     color: #272727;
     font-weight: 900;
     font-size: 40px;
@@ -35,14 +42,18 @@ button:hover {
     background: rgba(34, 224, 17, 0.555);
 }
 
-.feature-text .feature-text-contents *,
-.feature-content,
+
 .instagram-text-contents * {
     margin-bottom: 25px;
 }
-.feature,.insta-section {
+
+#featured,
+.insta-section,
+.latest-deal {
     margin-top: 120px;
 }
+
+
 
 
 /* header related styles */
@@ -83,55 +94,56 @@ header,
 }
 
 /* feature related styles */
-
-.feature-text-contents {
-    max-width: 580px;
-    text-align: center;
-    margin: 0 auto;
+/* #featured{
+    border: 1px solid red;
+} */
+.container{
+    border: 1px solid red;
 }
+/* .flower{
+    border: 1px solid red;
+} */
 
 .feature-content {
     display: flex;
     gap: 20px;
+    margin-top: 40px;
     align-items: end;
     justify-content: space-between;
-
-}
-
-
-.flower .flower-img {
-    background: rgba(167, 33, 98, 0.15);
-    border-radius: 300px 300px 0px 0px;
     /* border: 1px solid red; */
-    padding: 30px 25px 0;
-    height: 500px;
-    display: flex;
-    align-items: end;
 }
-
-.flower .pink {
-    background: rgba(167, 33, 98, 0.15);
-}
-
-.flower .blue {
-    background: rgba(5, 151, 160, 0.15);
-}
-
-.flower .green {
-    background: rgba(71, 125, 17, 0.15);
-}
-
-.flower-img img {
-    width: 100%;
-}
-
-.flower p {
+.feature-content .flower p {
     color: #272727;
+    margin-top: 16px;
     font-weight: 700;
     font-size: 24px;
     text-align: center;
     text-decoration: underline;
-    margin-top: 16px;
+}
+
+.feature-content .flower .flower-img {
+    border-radius: 300px 300px 0 0;
+    padding: 30px 15px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+    /* issue1: image gula kibhabe niche ashlo ei flex er karone */
+}
+
+.feature-content .flower .pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.feature-content .flower .blue {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.feature-content .flower .green {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.feature-content .flower .flower-img img {
+    width: 100%;
 }
 
 /* services related styles */
@@ -215,8 +227,10 @@ header,
     margin: 0 auto;
 }
 
-.instagram-content{
+.instagram-content {
     display: flex;
     gap: 20px;
     margin-top: 50px;
 }
+
+/* latest deal related styles */
