@@ -12,7 +12,7 @@
 }
 
 header,
-.hot-deal {
+#hot-deal {
     background: rgba(229, 84, 115, 0.1);
 }
 
@@ -37,10 +37,14 @@ p {
     font-size: 18px;
 
 }
+.primary-color{
+    color: rgba(229, 84, 115, 1);
+}
 
 #featured,
 #services,
-#insta-section,
+#hot-deal,
+#instagram,
 #newsletter,
 #footer {
     margin-top: 120px;
@@ -49,7 +53,7 @@ p {
 .banner-text *,
 .feature-main *,
 .hot-deal-main .container-text *,
-.instagram .section-heading *,
+.instagram-main .section-heading *,
 .footer-container * {
     margin-bottom: 25px;
 }
@@ -70,9 +74,6 @@ button {
 button:hover {
     background: rgba(34, 224, 17, 0.555);
 }
-
-
-
 
 
 /* header related styles */
@@ -109,15 +110,6 @@ button:hover {
     /* border: 1px solid red; */
 }
 
-.feature-content .flower p {
-    color: #272727;
-    margin-top: 16px;
-    font-weight: 700;
-    font-size: 24px;
-    text-align: center;
-    text-decoration: underline;
-}
-
 .feature-content .flower .flower-img {
     border-radius: 300px 300px 0 0;
     padding: 30px 15px 0;
@@ -143,9 +135,18 @@ button:hover {
     width: 100%;
 }
 
+.feature-content .flower p {
+    color: #272727;
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+}
+
 /* services related styles */
 
-.services-container {
+.services-main {
     display: flex;
     justify-content: space-around;
     background: rgba(39, 39, 39, 0.05);
@@ -164,9 +165,6 @@ button:hover {
 }
 
 /* hot deal related styles */
-.hot-deal {
-    margin-top: 120px;
-}
 
 .hot-deal-main {
     display: flex;
@@ -182,7 +180,6 @@ button:hover {
 }
 
 .hot-deal .container-img {
-    /* border: 1px solid red; */
     width: 318px;
 }
 
@@ -198,28 +195,13 @@ button:hover {
 
 /* instagram related styles */
 
-/* .container{
-    border: 1px solid red;
-}
-.instagram{
-    border: 3px solid red;
-}
-.instagram-text{
-    border: 10px solid green;
-   
-} */
-
-.instagram-img-content {
+.instagram-img-container {
     display: flex;
     gap: 20px;
     margin-top: 50px;
 }
 
 /* latest deal related styles */
-#newsletter {
-    /* border: 1px solid red; */
-    margin-top: 130px;
-}
 
 .newsletter-main {
     background-image: url('../images/Rectangle\ 9.png');
@@ -252,10 +234,6 @@ button:hover {
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
-}
-
-.footer-container .flower {
-    color: rgba(229, 84, 115, 1);
 }
 
 .footer-container h1 {
