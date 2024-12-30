@@ -5,6 +5,17 @@
     font-family: "Lato", serif;
 }
 
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header,
+.hot-deal {
+    background: rgba(229, 84, 115, 0.1);
+}
+
 .section-heading {
     max-width: 590px;
     text-align: center;
@@ -27,6 +38,22 @@ p {
 
 }
 
+#featured,
+#services,
+#insta-section,
+#newsletter,
+#footer {
+    margin-top: 120px;
+}
+
+.banner-text *,
+.feature-main *,
+.hot-deal-main .container-text *,
+.instagram .section-heading *,
+.footer-container * {
+    margin-bottom: 25px;
+}
+
 button {
     color: #FFFFFF;
     font-weight: 700;
@@ -44,31 +71,11 @@ button:hover {
     background: rgba(34, 224, 17, 0.555);
 }
 
-.feature-main *,
-.instagram .section-heading *,
-.footer-container *{
-    margin-bottom: 25px;
-}
 
-#featured,
-.insta-section,
-.latest-deal {
-    margin-top: 120px;
-}
 
 
 
 /* header related styles */
-header,
-.hot-deal {
-    background: rgba(229, 84, 115, 0.1);
-}
-
-.container {
-    width: 75%;
-    max-width: 1440px;
-    margin: 0 auto;
-}
 
 .banner {
     display: flex;
@@ -87,25 +94,11 @@ header,
     max-width: 708px;
 }
 
-.banner-text * {
-    margin-bottom: 20px;
-}
-
 .banner-img img {
     vertical-align: middle;
 }
 
 /* feature related styles */
-/* #featured{
-    border: 1px solid red;
-} */
-.container {
-    /* border: 1px solid red; */
-}
-
-/* .flower{
-    border: 1px solid red;
-} */
 
 .feature-content {
     display: flex;
@@ -151,16 +144,12 @@ header,
 }
 
 /* services related styles */
-.services {
-    margin-top: 120px;
-    /* border: 1px solid red; */
-}
 
 .services-container {
     display: flex;
     justify-content: space-around;
     background: rgba(39, 39, 39, 0.05);
-    padding: 120px 150px;
+    padding: 120px 0px;
 }
 
 .service-item {
@@ -190,12 +179,6 @@ header,
     width: 75%;
     max-width: 590px;
     text-align: center;
-}
-
-.hot-deal-main .container-text * {
-    /* max-width: 590px; */
-    margin-bottom: 20px;
-    /* text-align: center; */
 }
 
 .hot-deal .container-img {
@@ -262,7 +245,6 @@ header,
 /* footer related styles */
 #footer {
     background: #111010;
-    margin-top: 130px;
     padding: 120px 0;
 }
 
